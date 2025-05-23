@@ -1,4 +1,32 @@
-# Professional Portfolio Website
+# Adeel Ahmed – Professional Portfolio
+
+A modern, responsive portfolio website to showcase Adeel Ahmed's experience, skills, and projects as a .NET developer.
+
+## Tech Stack
+
+- **Next.js** – React framework for fast, server-rendered apps
+- **Tailwind CSS** – Utility-first CSS for rapid UI development
+
+## Getting Started
+
+```bash
+git clone <repository-url>
+cd portfolio-website
+npm install
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to view the site.
+
+## Features
+
+- Clean, mobile-first design
+- Sections: Home, About, Skills, Projects, Contact
+- Easily customizable and maintainable
+
+---
+
+Built and maintained by Adeel Ahmed.Professional Portfolio Website
 
 A modern, responsive portfolio website built to showcase professional experience, skills, and projects. Designed to be visually appealing and easily maintainable, this project serves as a personal platform to highlight a .NET developer's journey and expertise.
 
