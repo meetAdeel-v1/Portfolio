@@ -1,26 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Professional Portfolio Website
+
+A modern, responsive portfolio website built to showcase professional experience, skills, and projects. Designed to be visually appealing and easily maintainable, this project serves as a personal platform to highlight a .NET developer's journey and expertise.
+
+## Technologies Used
+
+- **Next.js (App Router):** For server-side rendering, routing, and a modern React framework experience.
+- **TypeScript:** For static typing, improving code quality and maintainability.
+- **Tailwind CSS:** For utility-first styling, enabling rapid UI development and customization.
 
 ## Getting Started
 
-First, run the development server:
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url> 
+    # Replace <repository-url> with the actual URL of your repository
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd portfolio-website
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    # yarn install
+    # or
+    # pnpm install
+    ```
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    # yarn dev
+    # or
+    # pnpm dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Implemented Sections (So Far)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio currently includes the following key sections:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Core Layout:**
+    - Responsive Header with navigation (Home, About Me, Skills, Experience, Projects, Certifications, Blog, Contact).
+    - Consistent Footer with copyright information.
+    - Mobile-first responsive design with a hamburger menu for smaller screens.
+- **Home Page:**
+    - Engaging hero section with a headline, sub-headline, and Call-to-Action (CTA) buttons ("View My Projects", "Get In Touch").
+- **About Me Page:**
+    - Structured section with an introduction/bio, journey/experience highlights, and development philosophy.
+    - Includes a placeholder for a professional photo.
+- **Skills Page:**
+    - Categorized list of technical skills (Backend, Frontend, Databases, Cloud & DevOps, Tools & Methodologies, Other).
+    - Skills are displayed as tags/badges within each category card.
+- **Projects Page:**
+    - Displays a grid of project cards, each showing project title, description, role, technologies used, and an image.
+    - Utilizes dummy data for demonstration purposes.
+    - Each card has a "View Details" button (currently a placeholder).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
+## Learn More (About Next.js)
 
 To learn more about Next.js, take a look at the following resources:
 
