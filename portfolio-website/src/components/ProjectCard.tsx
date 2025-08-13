@@ -57,7 +57,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           <Link
             href={`/projects/${project.id}`} // Example dynamic route
             className="inline-block w-full text-center px-8 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold rounded-lg shadow-md transition-colors duration-150 ease-in-out text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-            onClick={() => console.log("View details for", project.id)} // Placeholder action
           >
             View Details
           </Link>
